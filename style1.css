@@ -1,0 +1,177 @@
+body {
+    background-color: #CC6857;
+    width: 50vw;
+    height: 50vw;
+    display:block;
+    margin:auto;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    font-size: 17px;
+    text-align: center;
+    background-color: #BF7E96;
+}
+/* Menú principal */
+.menu ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline; 
+    width: 100%;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 50px;
+    color: #000000;
+}
+
+/* Menú secundario */
+.menu_secundario {
+    background: rgba(169, 169, 169, 5);
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo{
+    width: 50vw;
+    height: 50vw;
+    overflow: hidden;
+    display:block;
+    margin:auto;
+}
+
+img {
+    border-radius: 20px;
+}
+
+/* Menú footer */
+footer {
+    color: black;
+    background-color: #BF7E96; 
+    padding: 50px;
+    text-align: center;
+}
+
+.color_celeste {
+    color: cornflowerblue;
+}
+
+.menu2 {
+    list-style: none;
+}
+
+.menu2 li {
+    display: inline;
+    margin: 10px;
+}
+
+.menu2 li a {
+    color: black;
+}
+
+.main_conoceme {
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.main_conoceme {
+    font-size: 20px;
+}
+
+#tips {
+    background-color: #fff;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.5;
+    box-sizing: border-box;
+}
+
+.body-contacto {
+    height: 100%;
+    width: 100%;
+}
+
+.contacto {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fffbee;
+}
+
+.contacto_imagen1 {
+    height: 500;
+    width: 500;
+}
+
+.contacto_imagen2 {
+    width: 100%;
+}
+
+.contacto_lado-derecho {
+    padding: 50px;
+}
+
+.contacto_titulo {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.contacto_label {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.contacto_input {
+
+
+    padding: 10px;
+    border-bottom: 1px solid #121212;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #121212;
+    background-color: transparent;
+}
+
+.contacto_boton-enviar {
+    padding: 18px;
+    background-color: #121212;
+    border-radius: 20px;
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contacto_boton-enviar:hover {
+    background-color: #2e2e2e;
+}
+
+.transition {
+    height: 600;
+    width: 600;
+    transition: all 2s;
+}
+
+.transition:hover {
+    height: 700;
+    width: 700;
+}
